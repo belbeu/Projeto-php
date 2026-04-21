@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,19 +22,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   <h1>Cadastro de Usuário</h1>
   <p>Preencha os dados abaixo.</p>
-
+    <div class="container">
   <form method="POST" action="">
     <label>Nome:</label><br>
-    <input type="text" name="nome" required><br><br>
+    <input type="text" name="nome" required><br>
 
     <label>E-mail:</label><br>
-    <input type="email" name="email" required><br><br>
+    <input type="email" name="email" required><br>
 
     <label>Telefone:</label><br>
-    <input type="text" name="telefone" required><br><br>
+    <input type="text" name="telefone" required><br>
 
     <button type="submit">Cadastrar</button>
   </form>
+    </div>
 
   <?php if ($_SERVER["REQUEST_METHOD"] == "POST"): ?>
     <h2>Dados recebidos pelo servidor</h2>
