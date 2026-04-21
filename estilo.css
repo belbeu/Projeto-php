@@ -17,6 +17,12 @@ p {
   justify-content: center;
 }
 
+h2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   width: 100%;
   max-width: 500px;
