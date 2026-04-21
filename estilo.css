@@ -2,64 +2,70 @@ body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
   margin: 0;
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  width: 100%;
-  max-width: 400px;
-  text-align: center;
 }
 
 h1 {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 p {
   margin-bottom: 20px;
   color: #555;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 form {
-  background: #ffffff;
-  padding: 30px;
+  background: #fff;
+  padding: 25px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  display: block;
+  height: 500px;
+  width: 500px;
+  margin-bottom: 10px;
 }
 
 label {
   display: block;
-  margin-bottom: 5px;
   text-align: left;
+  padding: 10px;
+  margin-bottom: 5px;
 }
 
 input {
-  width: 100%;
+  display: block;
+  width: 90%;
+  margin: 0 auto 15px auto; 
   padding: 10px;
-  margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 6px;
 }
 
 button {
-  width: 100%;
+  display: block;
+  width: 90%;
+  margin: 10px auto 0 auto;
   padding: 10px;
   border: none;
   border-radius: 6px;
-  background-color: #9e1b8d;
+  background-color: #db25bd;
   color: white;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #d475cc;
-}
-
-h2 {
-  margin-top: 20px;
+  background-color: #d861b4;
 }
